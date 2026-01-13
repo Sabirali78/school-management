@@ -207,7 +207,7 @@
                 </div>
             </div>
 
-            <!-- Recent Notices -->
+            
             <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
                 <div class="flex items-center justify-between mb-6">
                     <h3 class="text-lg font-semibold text-gray-900">Recent Notices</h3>
