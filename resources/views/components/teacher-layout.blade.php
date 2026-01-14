@@ -21,6 +21,7 @@
             <nav class="space-y-2">
                 <a href="{{ route('teacher.dashboard') }}" class="block px-3 py-2 rounded hover:bg-gray-100">Dashboard</a>
                 <a href="{{ route('teacher.attendance.index') }}" class="block px-3 py-2 rounded hover:bg-gray-100">Attendance</a>
+                <a href="{{ route('teacher.exams.create') }}" class="block px-3 py-2 rounded hover:bg-gray-100">Create Exam</a>
                 <a href="#" class="block px-3 py-2 rounded hover:bg-gray-100">My Classes</a>
                 <a href="#" class="block px-3 py-2 rounded hover:bg-gray-100">Profile</a>
             </nav>

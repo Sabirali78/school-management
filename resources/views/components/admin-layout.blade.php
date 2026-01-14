@@ -228,9 +228,17 @@
                                class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded">
                                 Exams Schedule
                             </a>
+                            <a href="{{ route('admin.exams.create') }}" 
+                               class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded">
+                                Create New Exam
+                            </a>
                             <a href="{{ route('admin.results.index') }}" 
                                class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded">
-                                Results Entry
+                                View Results
+                            </a>
+                            <a href="{{ route('admin.results.create') }}" 
+                               class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded">
+                                Add New Result
                             </a>
                             <a href="#" 
                                class="block px-4 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-gray-50 rounded">
